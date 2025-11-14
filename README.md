@@ -4,7 +4,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/byteherder/reflector?sort=semver)](https://github.com/byteherder/reflector/releases/latest)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/byteherder?label=Sponsor)](https://github.com/sponsors/byteherder)
 
-Reflector is a tiny HTTP service that shows you *exactly* what an upstream sees from a request. It captures transport data, headers, cookies, query params, request body previews, TLS details, and—when loaded in a browser—rich metadata that the browser itself can collect. It is ideal for debugging CDN/CDN↔origin behavior, reverse-proxy issues, and verifying what user-agents really send.
+Reflector is a tiny HTTP service that shows you *exactly* what an upstream sees from a request. It captures transport data, headers, cookies, query params, request body previews, TLS details, and—when loaded in a browser—rich metadata that the browser itself can collect. It is ideal for debugging CDN/CDN↔origin behavior, reverse-proxy issues, tracing weird ingress proxy/Kubernetes errors, and verifying what user-agents really send.
 
 ## Highlights
 
